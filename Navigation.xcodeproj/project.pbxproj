@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E362FC9122C5AFD9009AEC97 /* lamp-on.png in Resources */ = {isa = PBXBuildFile; fileRef = E362FC8F22C5AFD9009AEC97 /* lamp-on.png */; };
+		E362FC9222C5AFD9009AEC97 /* lamp-off.png in Resources */ = {isa = PBXBuildFile; fileRef = E362FC9022C5AFD9009AEC97 /* lamp-off.png */; };
 		E3CD96E522BF852100EB04E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CD96E422BF852100EB04E5 /* AppDelegate.swift */; };
 		E3CD96E722BF852100EB04E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CD96E622BF852100EB04E5 /* ViewController.swift */; };
 		E3CD96EA22BF852100EB04E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CD96E822BF852100EB04E5 /* Main.storyboard */; };
 		E3CD96EC22BF852200EB04E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3CD96EB22BF852200EB04E5 /* Assets.xcassets */; };
 		E3CD96EF22BF852200EB04E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CD96ED22BF852200EB04E5 /* LaunchScreen.storyboard */; };
+		E3CD96F722BF9CD200EB04E5 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CD96F622BF9CD200EB04E5 /* EditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E362FC8F22C5AFD9009AEC97 /* lamp-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lamp-on.png"; path = "../../../../Downloads/example-master/11장/본문실습이미지/lamp-on.png"; sourceTree = "<group>"; };
+		E362FC9022C5AFD9009AEC97 /* lamp-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lamp-off.png"; path = "../../../../Downloads/example-master/11장/본문실습이미지/lamp-off.png"; sourceTree = "<group>"; };
 		E3CD96E122BF852100EB04E5 /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3CD96E422BF852100EB04E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3CD96E622BF852100EB04E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		E3CD96EB22BF852200EB04E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3CD96EE22BF852200EB04E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3CD96F022BF852200EB04E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3CD96F622BF9CD200EB04E5 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +60,12 @@
 		E3CD96E322BF852100EB04E5 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				E362FC9022C5AFD9009AEC97 /* lamp-off.png */,
+				E362FC8F22C5AFD9009AEC97 /* lamp-on.png */,
 				E3CD96E422BF852100EB04E5 /* AppDelegate.swift */,
 				E3CD96E622BF852100EB04E5 /* ViewController.swift */,
 				E3CD96E822BF852100EB04E5 /* Main.storyboard */,
+				E3CD96F622BF9CD200EB04E5 /* EditViewController.swift */,
 				E3CD96EB22BF852200EB04E5 /* Assets.xcassets */,
 				E3CD96ED22BF852200EB04E5 /* LaunchScreen.storyboard */,
 				E3CD96F022BF852200EB04E5 /* Info.plist */,
@@ -122,8 +131,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E362FC9222C5AFD9009AEC97 /* lamp-off.png in Resources */,
 				E3CD96EF22BF852200EB04E5 /* LaunchScreen.storyboard in Resources */,
 				E3CD96EC22BF852200EB04E5 /* Assets.xcassets in Resources */,
+				E362FC9122C5AFD9009AEC97 /* lamp-on.png in Resources */,
 				E3CD96EA22BF852100EB04E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3CD96E722BF852100EB04E5 /* ViewController.swift in Sources */,
+				E3CD96F722BF9CD200EB04E5 /* EditViewController.swift in Sources */,
 				E3CD96E522BF852100EB04E5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
